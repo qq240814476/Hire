@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle">
+    <!-- 定义了按钮的背景的颜色 -->
+    <solid android:color="#38B0DE"/>
+    <!-- 定义按钮的弧形角度 -->
+    <corners android:radius="10dip"/>
+    <!-- 定义按钮文字与边界的距离 -->
+    <padding
+        android:bottom="6dp"
+        android:top="6dp"
+        android:left="6dp"
+        android:right="6dp"
+        />
+
+</shape>

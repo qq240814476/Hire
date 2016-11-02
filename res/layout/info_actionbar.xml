@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/BarColor">
+        <ImageButton
+        android:id="@+id/info_back"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/cancel"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/BarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商品详情"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/wantRent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:text="我想租"
+        android:paddingRight="10dp"
+       />
+
+</RelativeLayout>

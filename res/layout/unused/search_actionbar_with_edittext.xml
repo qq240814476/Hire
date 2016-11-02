@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/BarColor"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/input_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_margin="4dp"
+            android:background="@drawable/find"
+             />
+
+        <EditText
+            android:id="@+id/textToSearch"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:singleLine="true"
+            android:hint="请输入宝贝关键字或@卖家名"
+            >
+        </EditText>
+        <ImageButton
+            android:id="@+id/clearText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clear"
+            android:layout_margin="4dp"
+             />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/turnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+                android:layout_marginRight="12dp"/>
+
+</LinearLayout>

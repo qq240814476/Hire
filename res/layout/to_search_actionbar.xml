@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical" >
+
+
+        <RelativeLayout
+            android:id="@+id/hideView1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/BarColor" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="搜索"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/searchCancel"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/cancel" />
+        </RelativeLayout>
+
+        
+
+    <LinearLayout
+        android:id="@+id/hideView2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/BarColor"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/touchToSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/input_bg"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="请输入宝贝关键字或@卖家名" />
+    </LinearLayout>
+
+</LinearLayout>

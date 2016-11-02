@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/chat_actionbar"/>
+    <include android:id="@+id/item_in_chat_activity" layout="@layout/item_in_chat_activity"/>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+         >
+
+        <ListView
+            android:id="@+id/chatListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:fadingEdgeLength="0dp"
+            android:fastScrollEnabled="true"
+            android:listSelector="@color/transparent"
+            android:paddingBottom="10dp"
+            android:transcriptMode="normal" />
+
+    </FrameLayout>
+    <include layout="@layout/chat_bottom"/>"
+</LinearLayout>

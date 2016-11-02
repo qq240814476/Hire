@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow_light">#FFFFCC</color>
+    <color name="red">#FF4500</color>
+    <color name="blue">#53B8FF</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="green">#00EE00</color>
+    <color name="black">#000000</color>
+    <color name="BarColor">#FFCC00</color>
+    
+    <color name="btn_normal">#38B0DE</color>
+    <color name="btn_pressed">#5c4003</color>
+    <color name="transparent">#00000000</color>
+    
+</resources>

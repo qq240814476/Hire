@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<include
+    android:id="@+id/hideView" 
+    layout="@layout/to_search_actionbar"    />
+<!--  
+<include
+    android:id="@+id/showView"
+    android:visibility="gone"
+    layout="@layout/search_actionbar_with_edittext"/>
+-->
+<ListView
+    android:id="@+id/type_list"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+</ListView>
+
+</LinearLayout>
